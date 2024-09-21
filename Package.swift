@@ -10,7 +10,7 @@ let package = Package(
             targets: ["glm"]),
     ],
     targets: [
-        .target(name: "glm", path: ".", sources: ["spm.cpp"], publicHeadersPath: "glm"),
+        .target(name: "glm", path: ".", sources: ["spm.cpp"], publicHeadersPath: "include"),
     ],
     cxxLanguageStandard: .cxx20
 )
